@@ -30,7 +30,7 @@ export const ConsentBanner: React.FC = () => {
   return (
     <aside
       aria-label="Privacy and cookies"
-      className="fixed bottom-24 left-5 right-5 sm:left-auto sm:right-6 sm:bottom-6 sm:max-w-[380px] z-60 rounded-[18px] p-5 bg-[rgba(251,251,253,0.9)] backdrop-blur-[20px] backdrop-saturate-[180%] border border-black/[0.08] shadow-[0_10px_40px_rgba(0,0,0,0.12)] animate-fadeIn"
+      className="fixed bottom-24 left-5 right-5 sm:right-auto sm:left-6 sm:bottom-6 sm:max-w-[380px] z-60 rounded-[18px] p-5 bg-[rgba(251,251,253,0.9)] backdrop-blur-[20px] backdrop-saturate-[180%] border border-black/[0.08] shadow-[0_10px_40px_rgba(0,0,0,0.12)] animate-fadeIn"
     >
       <p className="text-[14px] font-semibold text-[#1d1d1f]">Privacy &amp; measurement</p>
       <p className="mt-1 text-[14px] leading-snug text-[#6e6e73]">
