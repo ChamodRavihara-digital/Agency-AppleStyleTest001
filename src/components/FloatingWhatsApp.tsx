@@ -16,7 +16,7 @@ export const FloatingWhatsApp: React.FC = () => {
     // When a user lands on the site, wait 5 seconds, then enter with a smooth spring animation
     const timer = setTimeout(() => {
       setIsVisible(true);
-      setShowCard(true);
+            setShowCard(!!localStorage.getItem("chamod_consent"));
       setHasAnimatedEntry(true);
     }, 5000);
 
