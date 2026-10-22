@@ -56,7 +56,7 @@ export const FloatingWhatsApp: React.FC = () => {
   return (
     <aside
       aria-label="Direct WhatsApp Contact"
-      className={`fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end pointer-events-none select-none transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] ${
+      className={`fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-30 flex flex-col items-end pointer-events-none select-none transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] ${
         isVisible
           ? "opacity-100 translate-y-0 scale-100"
           : "opacity-0 translate-y-12 scale-75 pointer-events-none"
